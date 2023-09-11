@@ -1,0 +1,24 @@
+# This file is used by pandoc as a default settings option (e.g. "pandoc --defaults pandocin.yaml")
+# and provides all the data and references to post a public edition of this document.
+
+input-file: ${.}/document.tex
+resource-path:
+- ${.}
+metadata:
+  title: "On Palindromology"
+  date: 2020-02-02
+  author:
+  - surname: Aral
+    given-names: Lara
+    email: laraaral@example.com
+    orcid: https://orcid.org/0000-0002-1825-0097
+  copyright:
+    year: "2020"
+    statement: "© 2023, Aral et al"
+    holder: Aral et al
+  license:
+    type: open-access
+    link: "https://creativecommons.org/licenses/by/4.0/"
+    text: >-
+      This document is distributed under a Creative Commons Attribution 4.0
+      International license.
