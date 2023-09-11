@@ -12,7 +12,7 @@ permissions:
 jobs:
   build:
     steps:
-      - uses: castedo/basecast-action
+      - uses: castedo/basecast-build-action
         with:
           defaults-file: "src/pandocin.yaml"
   deploy:
