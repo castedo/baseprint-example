@@ -5,17 +5,17 @@ input-file: ${.}/document.tex
 resource-path:
 - ${.}
 metadata:
-  title: "On Palindromology"
+  title: "Baseprinting Example"
   date: 2020-02-02
   author:
-  - surname: Aral
-    given-names: Lara
-    email: laraaral@example.com
+  - given-names: Jane
+    surname: Roe
+    email: jane@example.com
     orcid: https://orcid.org/0000-0002-1825-0097
   copyright:
     year: "2020"
-    statement: "© 2020, Aral et al"
-    holder: Aral et al
+    statement: "© 2020, Roe et al"
+    holder: Roe et al
   license:
     type: open-access
     link: "https://creativecommons.org/licenses/by/4.0/"
