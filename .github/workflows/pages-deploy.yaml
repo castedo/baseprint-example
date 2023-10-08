@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: castedo/basecast-build-action
+      - uses: castedo/basecast-build-action@main
         with:
           defaults-file: "pandocin.yaml"
   deploy:
