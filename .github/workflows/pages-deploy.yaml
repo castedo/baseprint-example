@@ -16,7 +16,7 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: castedo/basecast-build-action@main
+      - uses: castedo/baseprinter-action@v2
         with:
           defaults-file: "pandocin.yaml"
   deploy:
