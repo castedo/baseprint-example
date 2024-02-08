@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
+                  "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+<front>
+<journal-meta>
+<journal-id></journal-id>
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+<article-meta>
+<title-group>
+<article-title>Baseprinting Example</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author">
+<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1825-0097</contrib-id>
+<name>
+<surname>Roe</surname>
+<given-names>Jane</given-names>
+</name>
+<email>jane@example.com</email>
+</contrib>
+</contrib-group>
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2020-02-02">
+<day>2</day>
+<month>2</month>
+<year>2020</year>
+</pub-date>
+<permissions>
+<copyright-statement>© 2020, Roe et al</copyright-statement>
+<copyright-year>2020</copyright-year>
+<copyright-holder>Roe et al</copyright-holder>
+<license license-type="open-access">
+<ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+<license-p>This document is distributed under a Creative Commons Attribution 4.0 International license.</license-p>
+</license>
+</permissions>
+<abstract>
+<p>This example demonstrates source files which are used to generate a baseprint from which
+web pages and PDF files can be rendered.
+This example also demonstrates a file organization for use with Overleaf and other LaTeX
+compilers.</p>
+</abstract>
+</article-meta>
+</front>
+<body>
+<sec id="intro">
+  <title>Introduction</title>
+  <p>This example of automated baseprint and web page and PDF preview genration is heavily
+  inspired by manubot <xref alt="1" rid="ref-himmelstein_open_2019" ref-type="bibr">1</xref>.</p>
+</sec>
+<sec id="use-with-overleaf-and-other-latex-compilers">
+  <title>Use with Overleaf and other LaTeX compilers</title>
+  <p>This example can be used as source for generating a baseprint but also source for
+  LaTeX compilers, such as on Overleaf.</p>
+  <p>Use <italic>main.tex as the source file for traditional LaTeX compilers.
+  This file includes <italic>document.tex which is the source file used to generate a
+  baseprint.</italic></italic></p>
+</sec>
+<sec id="some-math">
+  <title>Some math</title>
+  <p>Some inline <inline-formula><alternatives>
+  <tex-math><![CDATA[E = mc^2]]></tex-math>
+  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mi>m</mml:mi><mml:msup><mml:mi>c</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math></alternatives></inline-formula> math and display math:
+  <disp-formula><alternatives>
+  <tex-math><![CDATA[e^{\pi i} = -1
+  \text{\ .}]]></tex-math>
+  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>π</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mo>−</mml:mo><mml:mn>1</mml:mn><mml:mrow><mml:mspace width="0.333em"></mml:mspace><mml:mtext mathvariant="normal"> .</mml:mtext></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></p>
+</sec>
+<sec id="tables">
+  <title>Tables</title>
+  <table-wrap>
+    <table>
+      <tbody>
+        <tr>
+          <td align="left">Left</td>
+          <td align="center">Center</td>
+          <td align="right">Right</td>
+        </tr>
+        <tr>
+          <td align="left">0</td>
+          <td align="center">1</td>
+          <td align="right">2</td>
+        </tr>
+      </tbody>
+    </table>
+  </table-wrap>
+</sec>
+<sec id="within-document-references">
+  <title>Within document references</title>
+  <p>A reference to the introduction <xref alt="1" rid="intro">1</xref>.</p>
+  <sec id="web">
+    <title>Houston</title>
+    <p>Houston, we have a problem with basecast HTML preview using #web and intra-page anchors
+    <xref alt="5.1" rid="web">5.1</xref>.</p>
+  </sec>
+</sec>
+</body>
+<back>
+<ref-list>
+  <title>References</title>
+  <ref id="ref-himmelstein_open_2019">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Himmelstein</surname><given-names>Daniel S.</given-names></name>
+        <name><surname>Rubinetti</surname><given-names>Vincent</given-names></name>
+        <name><surname>Slochower</surname><given-names>David R.</given-names></name>
+        <name><surname>Hu</surname><given-names>Dongbo</given-names></name>
+        <name><surname>Malladi</surname><given-names>Venkat S.</given-names></name>
+        <name><surname>Greene</surname><given-names>Casey S.</given-names></name>
+        <name><surname>Gitter</surname><given-names>Anthony</given-names></name>
+      </person-group>
+      <article-title>Open collaborative writing with Manubot</article-title>
+      <source>PLOS Computational Biology</source>
+      <person-group person-group-type="editor">
+        <name><surname>Schneidman-Duhovny</surname><given-names>Dina</given-names></name>
+      </person-group>
+      <year iso-8601-date="2019-06">2019</year><month>06</month>
+      <date-in-citation content-type="access-date"><year iso-8601-date="2023-09-17">2023</year><month>09</month><day>17</day></date-in-citation>
+      <volume>15</volume>
+      <issue>6</issue>
+      <issn>1553-7358</issn>
+      <uri>https://dx.plos.org/10.1371/journal.pcbi.1007128</uri>
+      <pub-id pub-id-type="doi">10.1371/journal.pcbi.1007128</pub-id>
+      <fpage>e1007128</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+</article>
