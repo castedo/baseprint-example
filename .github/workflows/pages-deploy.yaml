@@ -18,9 +18,17 @@ jobs:
   build:
     runs-on: ubuntu-24.04
     steps:
-      - uses: castedo/baseprinter-action@main
+      - name: "Generate baseprint into autobaseprint branch and deploy preview to GitHub Pages"
+        uses: castedo/baseprinter-action@v7
         with:
-          defaults-file: "pandocin.yaml"
+          xargs-input: baseprinter-xargs.txt
+          # do not use baseprint-path in sources
+          # baseprint snapshot contents will be automatically stored here
+          # on the autobaseprint branch
+          baseprint-path: baseprint
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
   deploy:
     needs: build
     runs-on: ubuntu-24.04
