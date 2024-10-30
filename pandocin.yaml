@@ -6,7 +6,6 @@ resource-path:
 - ${.}
 metadata:
   title: "Baseprinting Example"
-  date: 2020-02-02
   author:
   - given-names: Jane
     surname: Roe
