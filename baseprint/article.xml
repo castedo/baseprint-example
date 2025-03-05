@@ -1,53 +1,39 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN"
-                  "JATS-archivearticle1.dtd">
-<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
-<front>
-<journal-meta>
-<journal-id></journal-id>
-<journal-title-group>
-</journal-title-group>
-<issn></issn>
-<publisher>
-<publisher-name></publisher-name>
-</publisher>
-</journal-meta>
-<article-meta>
-<title-group>
-<article-title>Baseprinting Example</article-title>
-</title-group>
-<contrib-group>
-<contrib contrib-type="author">
-<contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1825-0097</contrib-id>
-<name>
-<surname>Roe</surname>
-<given-names>Jane</given-names>
-</name>
-<email>jane@example.com</email>
-</contrib>
-</contrib-group>
-<permissions>
-<copyright-statement>© 2020, Roe et al</copyright-statement>
-<copyright-year>2020</copyright-year>
-<copyright-holder>Roe et al</copyright-holder>
-<license license-type="open-access">
-<ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
-<license-p>This document is distributed under a Creative Commons Attribution 4.0 International license.</license-p>
-</license>
-</permissions>
-<abstract>
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Baseprinting Example</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">https://orcid.org/0000-0002-1825-0097</contrib-id>
+          <name>
+            <surname>Roe</surname>
+            <given-names>Jane</given-names>
+          </name>
+          <email>jane@example.com</email>
+        </contrib>
+      </contrib-group>
+      <permissions>
+        <copyright-statement>© 2020, Roe et al</copyright-statement>
+      <license>
+        <ali:license_ref>https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+        <license-p>This document is distributed under a Creative Commons Attribution 4.0 International license.</license-p>
+      </license>
+      </permissions>
+      <abstract>
 <p>This example demonstrates source files which are used to generate a baseprint from which
 web pages and PDF files can be rendered.
 This example also demonstrates a file organization for use with Overleaf and other LaTeX
 compilers.</p>
-</abstract>
-</article-meta>
-</front>
-<body>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
 <sec id="intro">
   <title>Introduction</title>
   <p>This example of automated baseprint and web page and PDF preview genration is heavily
-  inspired by manubot <xref alt="1" rid="ref-himmelstein_open_2019" ref-type="bibr">1</xref>.</p>
+  inspired by manubot<sup><xref alt="1" rid="ref-himmelstein_open_2019" ref-type="bibr">1</xref></sup>.</p>
 </sec>
 <sec id="use-with-overleaf-and-other-latex-compilers">
   <title>Use with Overleaf and other LaTeX compilers</title>
@@ -90,8 +76,8 @@ compilers.</p>
   <title>Within document references</title>
   <p>A reference to the introduction <xref alt="1" rid="intro">1</xref>.</p>
 </sec>
-</body>
-<back>
+  </body>
+  <back>
 <ref-list>
   <title>References</title>
   <ref id="ref-himmelstein_open_2019">
@@ -122,5 +108,5 @@ compilers.</p>
     </element-citation>
   </ref>
 </ref-list>
-</back>
+  </back>
 </article>
