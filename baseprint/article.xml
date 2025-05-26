@@ -43,16 +43,6 @@ compilers.</p>
   This file includes <italic>document.tex which is the source file used to generate a
   baseprint.</italic></italic></p>
 </sec>
-<sec id="some-math">
-  <title>Some math</title>
-  <p>Some inline <inline-formula><alternatives>
-  <tex-math><![CDATA[E = mc^2]]></tex-math>
-  <mml:math display="inline" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:mi>E</mml:mi><mml:mo>=</mml:mo><mml:mi>m</mml:mi><mml:msup><mml:mi>c</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math></alternatives></inline-formula> math and display math:
-  <disp-formula><alternatives>
-  <tex-math><![CDATA[e^{\pi i} = -1
-  \text{\ .}]]></tex-math>
-  <mml:math display="block" xmlns:mml="http://www.w3.org/1998/Math/MathML"><mml:mrow><mml:msup><mml:mi>e</mml:mi><mml:mrow><mml:mi>π</mml:mi><mml:mi>i</mml:mi></mml:mrow></mml:msup><mml:mo>=</mml:mo><mml:mi>−</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mspace width="0.333em"></mml:mspace><mml:mtext mathvariant="normal"> .</mml:mtext></mml:mrow></mml:mrow></mml:math></alternatives></disp-formula></p>
-</sec>
 <sec id="tables">
   <title>Tables</title>
   <table-wrap>
