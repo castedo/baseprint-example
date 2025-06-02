@@ -71,7 +71,7 @@ compilers.</p>
 <ref-list>
   <title>References</title>
   <ref id="ref-himmelstein_open_2019">
-    <element-citation publication-type="article-journal">
+    <element-citation>
       <person-group person-group-type="author">
         <name><surname>Himmelstein</surname><given-names>Daniel S.</given-names></name>
         <name><surname>Rubinetti</surname><given-names>Vincent</given-names></name>
@@ -89,7 +89,6 @@ compilers.</p>
       <year iso-8601-date="2019-06">2019</year><month>06</month>
       <date-in-citation content-type="access-date"><year iso-8601-date="2023-09-17">2023</year><month>09</month><day>17</day></date-in-citation>
       <volume>15</volume>
-      <issue>6</issue>
       <issn>1553-7358</issn>
       <uri>https://dx.plos.org/10.1371/journal.pcbi.1007128</uri>
       <pub-id pub-id-type="doi">10.1371/journal.pcbi.1007128</pub-id>

@@ -12,9 +12,7 @@ metadata:
     email: jane@example.com
     orcid: https://orcid.org/0000-0002-1825-0097
   copyright:
-    year: "2020"
     statement: "© 2020, Roe et al"
-    holder: Roe et al
   license:
     link: "https://creativecommons.org/licenses/by/4.0/"
     text: >-
