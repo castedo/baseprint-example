@@ -1,4 +1,4 @@
-<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/">
+<article>
   <front>
     <article-meta>
       <title-group>
@@ -17,7 +17,7 @@
       <permissions>
         <copyright-statement>&#169; 2020, Roe et al</copyright-statement>
         <license>
-          <ali:license_ref content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref>
+          <license-ref content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</license-ref>
           <license-p>This document is distributed under a Creative Commons Attribution 4.0 International license.</license-p>
         </license>
       </permissions>
@@ -29,49 +29,29 @@ compilers.</p>
       </abstract>
     </article-meta>
   </front>
-  <body>
-    <sec id="intro">
-      <title>Introduction</title>
+  <article-body>
+    <section id="intro">
+      <h2>Introduction</h2>
       <p>This example of automated baseprint and web page and PDF preview genration is heavily
   inspired by manubot<sup>
           <xref rid="ref-himmelstein_open_2019" ref-type="bibr">1</xref>
         </sup>.</p>
-    </sec>
-    <sec id="use-with-overleaf-and-other-latex-compilers">
-      <title>Use with Overleaf and other LaTeX compilers</title>
+    </section>
+    <section id="use-with-overleaf-and-other-latex-compilers">
+      <h2>Use with Overleaf and other LaTeX compilers</h2>
       <p>This example can be used as source for generating a baseprint but also source for
   LaTeX compilers, such as on Overleaf.</p>
-      <p>Use <italic>main.tex as the source file for traditional LaTeX compilers.
-  This file includes <italic>document.tex which is the source file used to generate a
-  baseprint.</italic></italic></p>
-    </sec>
-    <sec id="tables">
-      <title>Tables</title>
-      <table-wrap>
-        <table>
-          <tbody>
-            <tr>
-              <td align="left">Left</td>
-              <td align="center">Center</td>
-              <td align="right">Right</td>
-            </tr>
-            <tr>
-              <td align="left">0</td>
-              <td align="center">1</td>
-              <td align="right">2</td>
-            </tr>
-          </tbody>
-        </table>
-      </table-wrap>
-    </sec>
-    <sec id="within-document-references">
-      <title>Within document references</title>
-      <p>A reference to the introduction <xref rid="intro">1</xref>.</p>
-    </sec>
-  </body>
+      <p>Use <i>main.tex</i> as the source file for traditional LaTeX compilers.
+  This file includes <i>document.tex</i> which is the source file used to generate a
+  baseprint.</p>
+    </section>
+    <section id="within-document-references">
+      <h2>Within document references</h2>
+      <p>A reference to the introduction <a href="#intro">1</a>.</p>
+    </section>
+  </article-body>
   <back>
     <ref-list>
-      <title>References</title>
       <ref id="ref-himmelstein_open_2019">
         <element-citation>
           <person-group person-group-type="author">
@@ -111,7 +91,7 @@ compilers.</p>
             </name>
           </person-group>
           <article-title>Open collaborative writing with Manubot</article-title>
-          <source>PLOS Computational Biology</source>
+          <source-title>PLOS Computational Biology</source-title>
           <year>2019</year>
           <month>06</month>
           <date-in-citation content-type="access-date">
