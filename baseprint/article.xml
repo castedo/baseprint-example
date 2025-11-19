@@ -33,17 +33,15 @@ compilers.</p>
     <section id="intro">
       <h2>Introduction</h2>
       <p>This example of automated baseprint and web page and PDF preview genration is heavily
-  inspired by manubot<sup>
-          <xref rid="ref-himmelstein_open_2019" ref-type="bibr">1</xref>
-        </sup>.</p>
+inspired by manubot<sup><xref rid="himmelstein_open_2019" ref-type="bibr">1</xref></sup>.</p>
     </section>
     <section id="use-with-overleaf-and-other-latex-compilers">
       <h2>Use with Overleaf and other LaTeX compilers</h2>
       <p>This example can be used as source for generating a baseprint but also source for
-  LaTeX compilers, such as on Overleaf.</p>
+LaTeX compilers, such as on Overleaf.</p>
       <p>Use <i>main.tex</i> as the source file for traditional LaTeX compilers.
-  This file includes <i>document.tex</i> which is the source file used to generate a
-  baseprint.</p>
+This file includes <i>document.tex</i> which is the source file used to generate a
+baseprint.</p>
     </section>
     <section id="within-document-references">
       <h2>Within document references</h2>
@@ -52,7 +50,7 @@ compilers.</p>
   </article-body>
   <back>
     <ref-list>
-      <ref id="ref-himmelstein_open_2019">
+      <ref id="himmelstein_open_2019">
         <element-citation>
           <person-group person-group-type="author">
             <name>
@@ -99,10 +97,10 @@ compilers.</p>
             <month>09</month>
             <day>17</day>
           </date-in-citation>
-          <volume>15</volume>
-          <fpage>e1007128</fpage>
           <issn>1553-7358</issn>
           <uri>https://dx.plos.org/10.1371/journal.pcbi.1007128</uri>
+          <volume>15</volume>
+          <fpage>e1007128</fpage>
           <pub-id pub-id-type="doi">10.1371/journal.pcbi.1007128</pub-id>
         </element-citation>
       </ref>
